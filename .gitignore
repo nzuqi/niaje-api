@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+
+.env
+.env.dev
+.env.local
+
+todo.md
