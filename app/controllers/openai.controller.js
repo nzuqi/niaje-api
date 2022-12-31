@@ -19,11 +19,11 @@ exports.search = async (req, res) => {
         model: "text-davinci-003",
         prompt: q,
         temperature: 0.9,
-        max_tokens: 150,
+        // max_tokens: 150,
         top_p: 1,
         frequency_penalty: 0,
         presence_penalty: 0.6,
-        stop: [" Human:", " AI:"],
+        // stop: [" Human:", " AI:"],
     });
     // console.log(completion.data.choices[0].text);
 
