@@ -20,4 +20,5 @@ Voice assistant app API powered by OpenAI API
 
 ## References
 
+- https://www.npmjs.com/package/openai-api
 - https://github.com/amrrs/chatgpt-clone
