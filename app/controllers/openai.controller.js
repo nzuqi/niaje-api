@@ -19,7 +19,7 @@ exports.search = async (req, res) => {
         model: "text-davinci-003",
         prompt: q,
         temperature: 0.9,
-        max_tokens: 4096, // 150
+        max_tokens: 2048, // 150
         top_p: 1,
         frequency_penalty: 0,
         presence_penalty: 0.6,
