@@ -7,7 +7,6 @@ Voice assistant app API powered by OpenAI API
 - Clone this repo
 - Run `npm install` to install the dependencies
 - Run `node app` or `nodemon app` to launch on your local server
-- From your browser, go to `http://localhost:8080` dev environment, or `https://inspr.martin.co.ke:5302` prod environment.
 
 ## API status codes
 
@@ -21,5 +20,4 @@ Voice assistant app API powered by OpenAI API
 
 ## References
 
-- https://www.npmjs.com/package/validator
-- https://www.restapitutorial.com/httpstatuscodes.html
+- https://github.com/amrrs/chatgpt-clone
