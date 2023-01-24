@@ -85,6 +85,7 @@ const encrypt = {
 const defaults = {
     session_expiry: (3600 * 24), // expires in 24 hours
     jwt_key: "~?Er%Y;WE-:,b=RL*{%8P)7v;@}T&8dfz%7i5XL2:{KJ-`s[j`m:U<<_7BXdod5D>UKeOo===7gLlrqxi49IG9MFju5bk",
+    sentence_suffixes: ['?', '!', '.'],
 }
 
 const generateRandomString = (length) => {

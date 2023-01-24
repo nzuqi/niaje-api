@@ -8,13 +8,16 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 exports.search = async (req, res) => {
-    const { q } = req.body;
+    let { q } = req.body;
     // validate request
     if (!q) return res.status(400).send({
         status: 2,
         message: "Required parameter missing",
         data: null,
     });
+
+    if (!Common.defaults.sentence_suffixes.includes(q.slice(-1))) q = `${q}.`;
+
     const completion = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: q,
@@ -30,7 +33,7 @@ exports.search = async (req, res) => {
     res.status(200).send({
         status: 1,
         message: "Success",
-        data: completion.data.choices[0].text || '',
-        // data: completion.data,
+        // data: completion.data.choices[0].text || '',
+        data: completion.data,
     });
 }
