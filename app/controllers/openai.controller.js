@@ -33,7 +33,7 @@ exports.search = async (req, res) => {
     res.status(200).send({
         status: 1,
         message: "Success",
-        // data: completion.data.choices[0].text || '',
-        data: completion.data,
+        data: completion.data.choices[0].text || '',
+        // data: completion.data,
     });
 }
