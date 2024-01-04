@@ -17,20 +17,19 @@
   },
   "homepage": "https://github.com/nzuqi/niaje-api#readme",
   "dependencies": {
-    "@sendgrid/mail": "^7.6.2",
+    "@sendgrid/mail": "^8.1.0",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.1",
-    "express-jwt": "^5.3.3",
+    "express-jwt": "^8.4.1",
     "http": "0.0.1-security",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^3.5.9",
     "mongoose": "^5.9.21",
-    "openai": "^3.1.0",
+    "openai": "^4.24.1",
     "promise": "^8.1.0",
-    "request": "^2.88.2",
     "validator": "^13.7.0"
   }
 }
